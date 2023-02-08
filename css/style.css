@@ -8,12 +8,24 @@ body {
     line-height: 1.8em;
 }
 
+header {
+    background-color: #ccc;
+    background-image: url(../img/full_hd.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
 h1 {
-    font-size: 4em;
+    /* font-size: 4rem; */
+    /* font-size: 4vw; */
+    font-size: 4vmax;
     line-height: 1.2em;
     color: white;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
     text-align: center;
+    margin: auto;
 }
 
 section {
